@@ -1,4 +1,4 @@
-/* Контейнер форми */
+
 .form {
     display: flex;
     flex-direction: column;
@@ -11,7 +11,6 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Стиль для полів вводу */
 .form input {
     width: 100%;
     padding: 10px;
@@ -22,14 +21,12 @@
     transition: all 0.3s ease;
 }
 
-/* Фокус на полях вводу */
 .form input:focus {
     border-color: #007bff;
     outline: none;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
 }
 
-/* Кнопка відправки */
 .form button {
     background-color: #007bff;
     color: #fff;
@@ -40,13 +37,11 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
-/* Ховер-ефект на кнопці */
 .form button:hover {
     background-color: #0056b3;
 }
 
-/* Мобільний дизайн */
+
 @media (max-width: 600px) {
     .form {
         width: 100%;

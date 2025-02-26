@@ -1,12 +1,14 @@
-/* Контейнер для пошукової форми */
+
 .container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
-/* Лейбл для поля вводу */
+
 .container label {
     font-size: 16px;
     font-weight: 600;
@@ -15,26 +17,23 @@
     display: inline-block;
 }
 
-/* Поле пошуку */
+
 .search {
-    width: 100%;
-    padding: 10px 15px;
+padding: 8px 12px;
+    font-size: 14px;
     border-radius: 8px;
     border: 1px solid #ddd;
-    font-size: 16px;
-    color: #333;
     outline: none;
-    transition: all 0.3s ease;
+    width: 42%;
+    margin-top: 20px;
 }
 
-/* Ховер та фокус на полі пошуку */
 .search:hover,
 .search:focus {
-    border-color: #ff4d4d;
-    box-shadow: 0 0 5px rgba(255, 77, 77, 0.3);
+    border-color: #4d82ff;
+    box-shadow: 0 0 5px rgba(77, 255, 255, 0.3);
 }
 
-/* Мобільний дизайн */
 @media (max-width: 600px) {
     .search {
         padding: 8px 12px;
