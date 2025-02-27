@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import "./App.css";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchContacts } from "./redux/contactsOps"; // Операція отримання контактів
+import { fetchContacts } from "./redux/contactsOps"; 
 import { selectLoading, selectError } from "./redux/contactsSlice";
-import ContactForm from "./components/ContactForm/ContactForm";
+import ContactForm from "./components/contactForm/ContactForm";
 import SearchBox from "./components/searchBox/SearchBox";
 import ContactList from "./components/contactList/ContactList";
 
